@@ -8,7 +8,7 @@ export default defineConfig({
     federation({
       name: 'host',
       remotes: {
-        profilePreview: 'https://assets.production.linktr.ee/profile-preview/latest/remoteEntry.js',
+        profilePreview: 'https://assets.qa.linktr.ee/profile-preview/latest/remoteEntry.js',
       },
       shared: ['react', 'react-dom']
     })
