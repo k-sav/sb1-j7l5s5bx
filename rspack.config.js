@@ -17,7 +17,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'host',
       remotes: {
-        profilePreview: 'profilePreview@https://assets.production.linktr.ee/profile-preview/latest/remoteEntry.js',
+        profilePreview: 'profilePreview@https://assets.qa.linktr.ee/profile-preview/latest/remoteEntry.js',
       },
       shared: {
         react: {
